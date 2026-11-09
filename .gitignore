@@ -1,0 +1,55 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+ls-live-instance.json
+ls-live-instance.json.tmp
+# END Lens Studio managed Agents-Docs block
+
+# --- GRAVITY SHIFT additions (W01) ---
+.mcp.json
+*.lock
+ls-live-instance.json
+*.pem
+.env
+.env.*
+*.secret
+Cache/
+Workspaces/
+PluginsUserPreferences/
+.virtual-scene.json
+__pycache__/
+evidence/mcp-operations.log
+
+
+# --- publish safety (final rescue) ---
+# copy of a different project (MUSEUMI) with its own token/key copies: never publish
+visual-recovery/
+# inline images saved by tools/mcp.py (may capture the desktop)
+evidence/mcp-images/
+# full-desktop screenshots (personal desktop, other apps, chat windows)
+evidence/W02-material-fix/desktop-check.png
+evidence/W02-material-fix/close-dialog.png
+evidence/W02-material-fix/gravity-close-dialog.png
+evidence/W02-material-fix/pending-close.png

@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/416f981a-5f54-48f0-a6b1-fce180f52938>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c6c5b1b5-0fb9-471a-b1e4-99c4f5308cfc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c6c5b1b5-0fb9-471a-b1e4-99c4f5308cfc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f2e902b8-ea30-4f31-8e11-f003c27783cc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f2e902b8-ea30-4f31-8e11-f003c27783cc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c06ef87a-942e-4d5c-8e09-78e0598f1bf8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colliderSizeCm: false
+    core: false
+    fragmentsRoot: false
+    halo: false
+    hintText: false
+    pinchTarget: false
+    pulse: false
+    ringA: false
+    ringB: false
+    subText: false
+    titleText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pinchTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      core: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      halo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fragmentsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pulse: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      titleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      subText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      colliderSizeCm: !<float> 40.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject pinchTarget {"hint":"Object the user pinches (the core). A box collider + Interactable are added at runtime."}'
+    - // @input SceneObject core
+    - // @input SceneObject halo
+    - // @input SceneObject fragmentsRoot
+    - // @input SceneObject ringA
+    - // @input SceneObject ringB
+    - // @input SceneObject pulse
+    - // @input Component.Text titleText
+    - // @input Component.Text subText
+    - // @input Component.Text hintText
+    - // @input float colliderSizeCm = 40
